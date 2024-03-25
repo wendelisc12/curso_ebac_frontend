@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checar valores</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <h2>Insira os números</h2>
+            <div class="form-box">
+                <label for="a">A:</label>
+                <input type="number" name="a" id="a" value="" required>
+            </div>
+            <div class="form-box">
+                <label for="b">B:</label>
+                <input type="number" name="b" id="b" value="" required>
+            </div>
+            <button type="submit" onclick="checarNumero(event)">Checar números</button>
+            <span id="validacaoResultado"></span>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
