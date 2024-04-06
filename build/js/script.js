@@ -1,0 +1,1 @@
+$("document").ready(()=>{$("#form-login").validate({rules:{email:{required:!0},senha:{required:!0}},messages:{email:"Por favor digite seu email",senha:"digite sua senha"}})});
