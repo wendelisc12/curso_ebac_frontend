@@ -1,3 +1,8 @@
 $("document").ready(()=>{
-    alert("foi")
+    $("#form-login").validate({
+        rules:{
+            email: {required: true},
+            senha: {required: true}
+        }
+    })
 })
