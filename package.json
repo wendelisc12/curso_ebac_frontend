@@ -1,0 +1,17 @@
+{
+  "name": "curso_ebac_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-less": "^5.0.0",
+    "less": "^4.2.0"
+  }
+}
