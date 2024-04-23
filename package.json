@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "grunt build",
     "grunt": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
