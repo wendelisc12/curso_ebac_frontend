@@ -1,0 +1,24 @@
+$corBotao: #7e7e7e;
+
+html{
+    overflow-y: hidden;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    
+    button{
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 10px;
+        background-color: $corBotao;
+        cursor: pointer;
+        border: 0;
+        color: white;
+    }
+}
