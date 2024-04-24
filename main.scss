@@ -11,16 +11,16 @@
 
 .produto{
         
-    &___imagem { /* elemento */
+    &__imagem { /* elemento */
         width: 100%;
     }
 
-    &___nome { /* elemento */
+    &__nome { /* elemento */
         font-size: 1.2em;
         margin: 8px 0;
     }
 
-    &___descricao { /* elemento */
+    &__descricao { /* elemento */
         color: gray;
     }
 

@@ -13,14 +13,14 @@
   grid-column-gap: 1%;
 }
 
-.produto___imagem { /* elemento */
+.produto__imagem { /* elemento */
   width: 100%;
 }
-.produto___nome { /* elemento */
+.produto__nome { /* elemento */
   font-size: 1.2em;
   margin: 8px 0;
 }
-.produto___descricao { /* elemento */
+.produto__descricao { /* elemento */
   color: gray;
 }
 .produto--em-destaque { /* modificador */
